@@ -1,0 +1,16 @@
+using System;
+class HelloWorld {
+  static void Main() 
+  {
+    double a = MathPower(2, 4);
+    Console.WriteLine(a);
+  }
+  static double MathPower(double number, int power)
+{
+  double result = 1;
+  for (int i = 0; i < power; i++)
+    result *= number;
+  return result;
+}
+
+}
